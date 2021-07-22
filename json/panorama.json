@@ -1,0 +1,99 @@
+{
+    "panorama": [
+        {
+            "id": "1",
+            "photoId": "point2",
+            "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/panorama/360_1.jpg",
+            "photoClass": "map360 map360-on",
+            "envId": "group-point2",
+            "envClass": "spotclass",
+            "photoLink":[
+                {
+                    "id": "map_1",
+                    "spot": "linkto:#point1;spotgroup:group-point1",
+                    "position": "-81.629 0 50"
+                },                
+                {
+                    "id": "map_2_1",
+                    "spot": "linkto:#point2_1;spotgroup:group-point2_1",
+                    "position": "-10 0 30"
+                },
+                {
+                    "id": "map_2_2",
+                    "spot": "linkto:#point2_2;spotgroup:group-point2_2",
+                    "position": "35.291 0 50"
+                }
+            ],
+            "photoInfo":[
+                {
+                    "id": "info1",
+                    "position": "-44.712 8 29.384",
+                    "textId": "2",
+                    "geometry":"height:7; width:10;",
+                    "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/bg-kupukupu.png"
+                }
+            ]
+
+        },
+        {
+            "id": "1",
+            "photoId": "point2_1",
+            "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/panorama/360_2.jpg",
+            "photoClass": "map360",
+            "envId": "group-point2_1",
+            "envClass": "spotclass",
+            "photoLink":[
+                {
+                    "id": "map_1",
+                    "spot": "linkto:#point1;spotgroup:group-point1",
+                    "position": "0 0 15"
+                },                
+                {
+                    "id": "map_2_1",
+                    "spot": "linkto:#point2_2;spotgroup:group-point2_2",
+                    "position": "-15 0 15"
+                }
+            ],
+            "photoInfo":[
+                {
+                    "id": "info2",
+                    "position": "-44.712 8 29.384",
+                    "textId": "2",
+                    "geometry":"height:7; width:10;",
+                    "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/bg-kupukupu.png"
+                }
+            ]
+
+        },
+        {
+            "id": "1",
+            "photoId": "point2_2",
+            "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/panorama/360_4.jpg",
+            "photoClass": "map360",
+            "envId": "group-point2_2",
+            "envClass": "spotclass",
+            "photoLink":[
+                {
+                    "id": "map_1",
+                    "spot": "linkto:#point1;spotgroup:group-point1",
+                    "position": "0 0 15"
+                },                
+                {
+                    "id": "map_2_1",
+                    "spot": "linkto:#point2_1;spotgroup:group-point2_1",
+                    "position": "-55 0 55"
+                }
+            ],
+            "photoInfo":[
+                {
+                    "id": "info3",
+                    "position": "-44.712 8 29.384",
+                    "textId": "2",
+                    "geometry":"height:7; width:10;",
+                    "src": "https://raw.githubusercontent.com/virtualtouralian/vtalian_file/main/img/bg-kupukupu.png"
+                }
+            ]
+
+        }
+    ]
+}
